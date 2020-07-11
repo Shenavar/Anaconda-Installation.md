@@ -95,5 +95,5 @@ Or
 as mentioned above.
 
 5. We strongly encourage you to read 
-[Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) f
-to know other forms of updating Anaconda.
+[Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) 
+to get familiar with other forms of updating Anaconda. You might need it some day.
