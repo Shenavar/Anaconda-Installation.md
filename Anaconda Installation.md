@@ -19,10 +19,9 @@ Once downloaded, the file will be usually placed in your *Download* directory wh
 ```sh
 ~/Downloads/
 ````
-If the file is placed in another directory, e.g. *Desktop* etc., then you would need to modify the address ( or simply cut and paste the file into 
-*~/Downloads/* directory.
+If the file is placed in another directory, e.g. *Desktop* etc., then you would need to modify the address in the following commands. Or, you may simply cut and paste the file into *Downloads* directory.
 
-2. Open a terminal *(ctrl + alt + t)*. You see something like this:
+2. Now, open a terminal by simply press *(ctrl + alt + t)* simultaneously. You see something like this:
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/1.jpg)
 
 The part 
@@ -31,9 +30,12 @@ hossein@Chortkeh2:~$
 ````
 in green font, and on the top left, is my laptop's name! So, you would see something else instead. Now
 
-   1. To install Anaconda for **Python 3.7**, enter the following command in your terminal:
+   - To install Anaconda for **Python 3.7**, enter the following command in your terminal:
    >  bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
-   2. To install Anaconda for **Python 2.7**, enter the following command in your terminal:
+   
+   or
+   
+   - To install Anaconda for **Python 2.7**, enter the following command in your terminal:
    >  bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh
    
 Because we need to run PLUTO code, you would need to install Anaconda for **Python 3.7**. So, you should run the first command in your terminal:
