@@ -33,13 +33,16 @@ hossein@Chortkeh2:~$
 in green font, and on the top left, is my laptop's name! So, you would see something else instead. Now
 
    - To install Anaconda for **Python 3.7**, enter the following command in your terminal:
-   >  bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
+   ```sh
+        bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
+   ````
    
    or
    
    - To install Anaconda for **Python 2.7**, enter the following command in your terminal:
-   >  bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh
-   
+   ```sh
+        bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh
+   ````
 Because we need to run PLUTO code, you would need to install Anaconda for **Python 3.7**. So, you should run the first command in your terminal:
 
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/2.jpg)
@@ -47,25 +50,32 @@ Because we need to run PLUTO code, you would need to install Anaconda for **Pyth
 
 3. Press *enter*. Then you would be asked to enter your password. After inserting your password, and pressing enter again, you would see the following message 
 
-  > In order to continue the installation process, please review the license agreement.
-  
+  ```sh
+  In order to continue the installation process, please review the license agreement.
+  ````
   Click Enter to view license terms. Then, scroll down to the bottom and enter **yes** to accept the terms.
   
   
 4. Next, the installer asks you to press **enter** to accept the *default install location*. **We strongly recommend you to choose the default install location**. Specially, **Do not** choose the path as **/usr** for the Anaconda/Miniconda installation because you will be in trouble shortly!
 
 After accepting the default directory, the installer shows the next message: 
-> PREFIX=/home/<user>/anaconda<2 or 3>”
-   
+```sh
+PREFIX=/home/<user>/anaconda<2 or 3>”
+````
+
 The installation process continues for a few minutes; then, it will be completed.
 
 5. Now, you see the next message:
-  > Do you wish the installer to initialize Anaconda3 by running conda init?
+  ```sh
+  Do you wish the installer to initialize Anaconda3 by running conda init?
+  ````
   
 write **yes** and press enter.  
   
 6. The installer finishes by showing the next message:
-  > Thank you for installing Anaconda 3
+  ```sh
+  Thank you for installing Anaconda 3
+  ````
   
 7. The installer provides a link to install **PyCharm** for Anaconda at https://www.anaconda.com/pycharm. However, installing **PyCharm** depends on you. We do not need **PyCharm** for this workshop.
 
@@ -78,40 +88,53 @@ This part is written based on
 
 To update anaconda to the latest version, you can simply run one of the following commands in your *terminal*:
 
-> conda update conda
+```sh
+conda update conda
+````
 
 Or 
 
-> conda update --all
-
+```
+sh conda update --all
+````
 
 In Iran, you will probably encounter some problems in updating or even installing Anaconda due to filtering. If so, we recommend you to install Lantern. To do so,
 
 1. You need to have **wget** installed. If you don't have it, simply run:
 
-> sudo apt-get install wget
+```sh
+sudo apt-get install wget
+````
 
 in your terminal.
 
 
 2. Next, download the source of Lantern by running this command in your terminal:
 
-> wget https://lantern.io/lantern-installer-64-bit.deb
+```sh
+wget https://lantern.io/lantern-installer-64-bit.deb
+````
 
 
 3. Go to the directory which includes the downloaded file (usually *Home* directory ) and execute the following command in terminal:
 
-> sudo apt install ./lantern-installer-64-bit.deb
+```sh
+sudo apt install ./lantern-installer-64-bit.deb
+````
 
 Enter your *password* and Lantern will be installed. 
 
 4. Once installed, you can update **Anaconda** by 
 
-> conda update conda
+```sh
+conda update conda
+````
 
 Or 
 
-> conda update --all
+```sh
+conda update --all
+````
 
 as mentioned above.
 
