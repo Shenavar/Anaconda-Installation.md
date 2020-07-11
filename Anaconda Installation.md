@@ -45,7 +45,7 @@ Because we need to run PLUTO code, you would need to install Anaconda for **Pyth
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/2.jpg)
 
 
-3. Press *enter*. Then you would be asked to enetr your password. After inserting your password, and pressing enetr again, you would see the following message 
+3. Press *enter*. Then you would be asked to enter your password. After inserting your password, and pressing enter again, you would see the following message 
 
   > In order to continue the installation process, please review the license agreement.
   
@@ -62,7 +62,7 @@ The installation process continues for a few minutes; then, it will be completed
 5. Now, you see the next message:
   > Do you wish the installer to initialize Anaconda3 by running conda init?
   
-write **yes**.  
+write **yes** and press enter.  
   
 6. The installer finishes by showing the next message:
   > Thank you for installing Anaconda 3
