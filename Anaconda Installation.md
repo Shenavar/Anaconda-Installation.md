@@ -1,7 +1,7 @@
 # How to install Anaconda on Ubuntu
 
 This tutorial for installing Anaconda is written based on
-[Anaconda Documentation!](https://docs.anaconda.com/anaconda/install/linux/)
+[Anaconda Documentation](https://docs.anaconda.com/anaconda/install/linux/)
 .
 
 1. Go to 
@@ -55,26 +55,36 @@ Write **yes**.
 # Updating Anaconda
 
 This part is written based on
-[Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/)
+[Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) from 
+[Anaconda Documentation](https://docs.anaconda.com/anaconda/install/linux/)
+.
 
-To update anaconda to the latest version, you could simply run the following command in your *terminal*:
+To update anaconda to the latest version, you can simply run one of the following commands in your *terminal*:
 > conda update conda
 
 Or 
 
 > conda update --all
 
+
 In Iran, you will probably encounter some problems in updating or even installing Anaconda due to filtering. If so, we recommend you to install Lantern. To do so,
 
-1. First download the source by running this command in terminal:
+1. You need to have wget installed. If you don't have it, simply run:
+
+> sudo apt-get install wget
+
+2. Next, download the source of Lantern by running this command in your terminal:
 
 > wget https://lantern.io/lantern-installer-64-bit.deb
 
-2. Go to the directory which includes this file and execute the following command in terminal:
+
+3. Go to the directory which includes the downloaded file (usually Home directory ) and execute the following command in terminal:
 
 > sudo apt install ./lantern-installer-64-bit.deb
 
-Enter your *password* and Lantern will be installed. Once installed, you could update *Anaconda* by 
+Enter your *password* and Lantern will be installed. 
+
+4. Once installed, you could update *Anaconda* by 
 
 > conda update conda
 
@@ -83,3 +93,7 @@ Or
 > conda update --all
 
 as mentioned above.
+
+5. We strongly encourage you to read 
+[Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) f
+to know other forms of updating Anaconda.
