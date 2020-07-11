@@ -13,3 +13,5 @@ and download **Anaconda installer for Linux**.
    >  bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
    2. To install Anaconda for **Python 2.7**, enter the following command in your terminal:
    >  bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh
+Because we need to run PLUTO code, you would need to install Anaconda for **Python 3.7**. So, you should run the first command in your terminal:
+![Image of a terminal](https://github.com/Shenavar/pics/blob/master/2.jpg)
