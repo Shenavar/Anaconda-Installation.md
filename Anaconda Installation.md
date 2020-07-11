@@ -21,7 +21,7 @@ Once downloaded, the file will be usually placed in your *Download* directory wh
 ````
 If the file is placed in another directory, e.g. *Desktop* etc., then you would need to modify the address in the following commands. Or, you may simply cut and paste the file into *Downloads* directory.
 
-2. Now, open a terminal by simply press *(ctrl + alt + t)* simultaneously. You see something like this:
+2. Now, open a terminal by simply pressing *ctrl + alt + t* simultaneously. You see something like this:
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/1.jpg)
 
 The part 
