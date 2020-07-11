@@ -39,10 +39,12 @@ in green font, and on the top left, is my laptop's name! So, you would see somet
    >  bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh
    
 Because we need to run PLUTO code, you would need to install Anaconda for **Python 3.7**. So, you should run the first command in your terminal:
+
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/2.jpg)
 
 
-3. Then you would see the following message 
+3. Pressed *enter*. Then you would be asked to enetr you password. After inserting your password, and pressing enetr again, you would see the following message 
+
   > In order to continue the installation process, please review the license agreement.
   
   Click Enter to view license terms. Then, Scroll down to the bottom and enter **Yes** to accept the terms.
