@@ -1,4 +1,5 @@
 # How to install Anaconda on Ubuntu
+
 This tutorial for installing Anaconda is written based on
 [Anaconda Documentation!](https://docs.anaconda.com/anaconda/install/linux/)
 .
@@ -46,3 +47,39 @@ The installation process continues for a few minutes; then it will be completed.
   
 Write **yes**.  
   
+6. The installer finishes by showing the next message:
+  > Thank you for installing Anaconda 3
+  
+7. The installer provides a link to install **PyCharm** for Anaconda at https://www.anaconda.com/pycharm. However, installing **PyCharm** depends to you. We do not need **PyCharm** for this workshop.
+
+# Updating Anaconda
+
+This part is written based on
+[Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/)
+
+To update anaconda to the latest version, you could simply run the following command in your *terminal*:
+> conda update conda
+
+Or 
+
+> conda update --all
+
+In Iran, you will probably encounter some problems in updating or even installing Anaconda due to filtering. If so, we recommend you to install Lantern. To do so,
+
+1. First download the source by running this command in terminal:
+
+> wget https://lantern.io/lantern-installer-64-bit.deb
+
+2. Go to the directory which includes this file and execute the following command in terminal:
+
+> sudo apt install ./lantern-installer-64-bit.deb
+
+Enter your *password* and Lantern will be installed. Once installed, you could update *Anaconda* by 
+
+> conda update conda
+
+Or 
+
+> conda update --all
+
+as mentioned above.
