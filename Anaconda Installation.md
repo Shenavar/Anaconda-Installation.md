@@ -14,7 +14,7 @@ and download **Anaconda installer for Linux**. If you are from Iran, and you enc
    
    or
    
-   - Install an application for open internet such as *Lantern*. This is explained in detail below (See **Updating Anaconda**). Then download anaconda from the 
+   - Install an application for open internet such as *Lantern*. This is explained in detail below (See **Updating Anaconda** below this page). After downloading and running Lanter, or somethig similar, download anaconda from the 
 [this page](https://www.anaconda.com/products/individual#linux).
 
 Once downloaded, the file will be usually placed in your *Download* directory which, in what follows, will be addressed as
