@@ -1,29 +1,26 @@
 # How to install Anaconda on Ubuntu
 
-This tutorial for installing Anaconda is written based on
+This tutorial for installing **Anaconda** is written based on
 [Anaconda Documentation](https://docs.anaconda.com/anaconda/install/linux/)
-.
+. To install **Anaconda**
 
 1. Go to 
 [this page](https://www.anaconda.com/products/individual#linux) 
-and download **Anaconda installer for Linux**. If you are from Ira, and you encountered some problems in downloading this source file, you would have two options:
+and download **Anaconda installer for Linux**. If you are from Iran, and you encounter some problems in downloading this source file, you would have two options:
 
    1. Go to 
    [fumdrive](https://fumdrive.um.ac.ir/index.php/s/eFzf63ZHn8WPLqF) 
    and download Anaconda. This link is provided to you from **AstroGroup** of *Ferdowsi University of Mashhad*.
    
    2. Install an application for open internet such as *Lantern*. This is explained in detail below (See **Updating Anaconda**). Then download anaconda from the 
-[main source](https://www.anaconda.com/products/individual#linux).
+[this page](https://www.anaconda.com/products/individual#linux).
 
-Once downloaded, the file will usually be placed in your *Download* directory which will be addressed as
+Once downloaded, the file will be usually placed in your *Download* directory which, in what follows, will be addressed as
 ```sh
 ~/Downloads/
 ````
-in what follws. If the file is placed in another directory, e.g. *Desktop* etc., then you would need to modify the address ( or simply cut and paste the file into 
-```sh
-~/Downloads/
-````
-directory.
+If the file is placed in another directory, e.g. *Desktop* etc., then you would need to modify the address ( or simply cut and paste the file into 
+*~/Downloads/* directory.
 
 2. Open a terminal *(ctrl + alt + t)*. You see something like this:
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/1.jpg)
