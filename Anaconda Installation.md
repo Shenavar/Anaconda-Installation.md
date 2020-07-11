@@ -5,10 +5,17 @@ This tutorial for installing Anaconda is written based on
 .
 
 1. Go to 
-[this page!](https://www.anaconda.com/products/individual#linux) 
-and download **Anaconda installer for Linux**.
+[this page](https://www.anaconda.com/products/individual#linux) 
+and download **Anaconda installer for Linux**. If you are from Ira, and you encountered some problems in downloading this source file, you would have two options:
 
-The downloaded file will usually be place in your *Download* directory which will be addressed as
+   1. Go to 
+   [fumdrive](https://fumdrive.um.ac.ir/index.php/s/eFzf63ZHn8WPLqF) 
+   and download Anaconda. This link is provided to you from **AstroGroup** of *Ferdowsi University of Mashhad*.
+   
+   2. Install an application for open internet such as *Lantern*. This is explained in detail below (See **Updating Anaconda**). Then download anaconda from the 
+[main source](https://www.anaconda.com/products/individual#linux).
+
+Once downloaded, the file will usually be placed in your *Download* directory which will be addressed as
 ```sh
 ~/Downloads/
 ````
@@ -25,7 +32,7 @@ The part
 ```sh
 hossein@Chortkeh2:~$
 ````
-is my laptop's name! So, you would see something else instead. Now
+in green font, and on the top left, is my laptop's name! So, you would see something else instead. Now
 
    1. To install Anaconda for **Python 3.7**, enter the following command in your terminal:
    >  bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
