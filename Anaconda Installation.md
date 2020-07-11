@@ -124,7 +124,17 @@ sudo apt install ./lantern-installer-64-bit.deb
 
 Enter your *password* and Lantern will be installed. 
 
-4. Once installed, you can update **Anaconda** by 
+
+4. Once installed, open a terminal and run Lantern
+
+```sh
+lantern
+````
+
+Now, the open internet is available through your whole device.
+
+
+5. Using open internet, you can update **Anaconda** by 
 
 ```sh
 conda update conda
@@ -138,6 +148,6 @@ conda update --all
 
 as mentioned above.
 
-5. We strongly encourage you to read 
+6. We strongly encourage you to read 
 [Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) 
 to get familiar with other forms of updating Anaconda. You might need it some day.
