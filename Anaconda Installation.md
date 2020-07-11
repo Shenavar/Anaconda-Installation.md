@@ -14,7 +14,7 @@ and download **Anaconda installer for Linux**. If you are from Iran, and you enc
    
    or
    
-   - Install an application for open internet such as *Lantern*. This is explained in detail below (See **Updating Anaconda** below this page). After downloading and running Lanter, or somethig similar, download anaconda from the 
+   - Install an application for open internet such as *Lantern*. This is explained in detail below (See **Updating Anaconda** below this page). After downloading and running *Lantern*, or somethig similar, download anaconda from the 
 [this page](https://www.anaconda.com/products/individual#linux).
 
 Once downloaded, the file will be usually placed in your *Download* directory which, in what follows, will be addressed as
@@ -49,10 +49,10 @@ Because we need to run PLUTO code, you would need to install Anaconda for **Pyth
 
   > In order to continue the installation process, please review the license agreement.
   
-  Click Enter to view license terms. Then, Scroll down to the bottom and enter **yes** to accept the terms.
+  Click Enter to view license terms. Then, scroll down to the bottom and enter **yes** to accept the terms.
   
   
-4. Next, the installer asks you to press **enter** to accept the default install location. We strongly recommend you to choose the default install location. Specially, **Do not** choose the path as **/usr** for the Anaconda/Miniconda installation because you will be in trouble shortly!
+4. Next, the installer asks you to press **enter** to accept the *default install location*. **We strongly recommend you to choose the default install location**. Specially, **Do not** choose the path as **/usr** for the Anaconda/Miniconda installation because you will be in trouble shortly!
 
 After accepting the default directory, the installer shows the next message: 
 > PREFIX=/home/<user>/anaconda<2 or 3>”
