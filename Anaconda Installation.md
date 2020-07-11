@@ -32,3 +32,17 @@ Because we need to run PLUTO code, you would need to install Anaconda for **Pyth
   > In order to continue the installation process, please review the license agreement.
   
   Click Enter to view license terms. Then, Scroll down to the bottom and enter **Yes** to accept the terms.
+  
+  
+4. Next, the installer asks you to press **Enter** to accept the default install location. We strongly recommend you to choose the default install location. Specially, **Do not** choose the path as **/usr** for the Anaconda/Miniconda installation because you will be in trouble shortly!
+
+After accepting the default directory, the installer shows the next message: 
+> PREFIX=/home/<user>/anaconda<2 or 3>”
+   
+The installation process continues for a few minutes; then it will be completed.
+
+5. You see the next message:
+  > Do you wish the installer to initialize Anaconda3 by running conda init?
+  
+Write **yes**.  
+  
