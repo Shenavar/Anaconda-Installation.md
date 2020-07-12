@@ -6,7 +6,8 @@ This tutorial for installing **Anaconda** is written based on
 
 1. Go to 
 [this page](https://www.anaconda.com/products/individual#linux) 
-and download **Anaconda installer for Linux**. If you are from Iran, and you encounter some problems in downloading this source file, you would have two options:
+and download [Anaconda installer (python 3.7) for Linux](https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh). If you are from Iran, we don't know why but you will probably encounter some problems in downloading this source file. You would have two options:
+
 
    - Go to 
    [fumdrive](https://fumdrive.um.ac.ir/index.php/s/eFzf63ZHn8WPLqF) 
@@ -36,19 +37,13 @@ in green font, and on the top left, is my laptop's name! So, you would see somet
    ```sh
         bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
    ````
-   
-   or
-   
-   - To install Anaconda for **Python 2.7**, enter the following command in your terminal:
-   ```sh
-        bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh
-   ````
-Because we need to run PLUTO code, you would need to install Anaconda for **Python 3.7**. So, you should run the first command in your terminal:
+
+like this:
 
 ![Image of a terminal](https://github.com/Shenavar/pics/blob/master/2.jpg)
 
 
-3. Press *enter*. Then you would be asked to enter your password. After inserting your password, and pressing enter again, you would see the following message 
+3. Press *enter*., then you would see the following message 
 
   ```sh
   In order to continue the installation process, please review the license agreement.
@@ -98,7 +93,7 @@ Or
 sh conda update --all
 ````
 
-In Iran, you will probably encounter some problems in updating or even installing Anaconda due to filtering. If so, we recommend you to install Lantern. To do so,
+As mentioned above, in Iran, you will probably encounter some problems in updating or even installing Anaconda. If so, we recommend you to install Lantern. To do so,
 
 1. You need to have **wget** installed. If you don't have it, simply run:
 
