@@ -1,4 +1,4 @@
-# How to install Anaconda on Ubuntu
+# I. How to install Anaconda on Ubuntu
 
 This tutorial for installing **Anaconda** is written based on
 [Anaconda Documentation](https://docs.anaconda.com/anaconda/install/linux/)
@@ -74,7 +74,7 @@ write **yes** and press enter.
   
 7. The installer provides a link to install **PyCharm** for Anaconda at https://www.anaconda.com/pycharm. However, installing **PyCharm** depends on you. We do not need **PyCharm** for this workshop.
 
-# Updating Anaconda
+# II. Updating Anaconda
 
 This part is written based on
 [Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) from 
