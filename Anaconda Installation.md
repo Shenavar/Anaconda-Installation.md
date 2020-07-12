@@ -6,7 +6,7 @@ This tutorial for installing **Anaconda** is written based on
 
 1. Go to 
 [this page](https://www.anaconda.com/products/individual#linux) 
-and download [Anaconda installer (python 3.7) for Linux](https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh). If you are from Iran, we don't know why but you will probably encounter some problems in downloading this source file. You would have two options:
+and download [Anaconda installer (python 3.7) for Linux](https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh). If you are from Iran, we don't know why, but you will probably encounter some problems in downloading this source file. Then, you would have two options:
 
 
    - Go to 
