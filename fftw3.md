@@ -2,7 +2,9 @@
 
 This tutorial for installing **fftw3** is written based on
 [How To Install "fftw3" Package on Ubuntu](https://zoomadmin.com/HowToInstall/UbuntuPackage/fftw3)
-. You need to be connected to internet to install **fftw3**. To install **fftw3** run 
+. You need to be connected to internet to install **fftw3**. 
+
+To install **fftw3** run 
 
 ```sh
 sudo apt-get update -y
@@ -15,6 +17,8 @@ sudo apt-get install -y fftw3
 ````
 
 Now **fftw3** is installed on your system.
+
+
 
 # I. How to use the library fftw3 in c++ codes
 
@@ -31,6 +35,7 @@ example.cpp
 ````
 
 Then, to execute your c++ code, you need to run the  following command in terminal
+
 ```sh
 g++ example.cpp -I/usr/include/ffttw.h -lm -lfftw3
 ````
