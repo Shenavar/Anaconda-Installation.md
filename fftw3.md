@@ -37,5 +37,5 @@ example.cpp
 Then, to execute your c++ code, you need to run the  following command in terminal
 
 ```sh
-g++ example.cpp -I/usr/include/ffttw.h -lm -lfftw3
+g++ example.cpp -I/usr/include -lm -lfftw3
 ````
