@@ -6,12 +6,12 @@ Fourier transform converts a physical-space (or time series) representation of a
 Owing to its vast application in science and engineering, it is vital to compute it as fast as possible.
 Fast Fourier transform (FFT) is a way to compute discrete Fourier transform (DFT) with the algorithm complexity of N log N instead of N^2.
 
-Because of its importance, there are many implication of FFT, namely [fftw](http://fftw.org/) (C and FORTRAN),
+Because of its importance, there are many implications of FFT, namely [fftw](http://fftw.org/) (C and FORTRAN),
 [pyFFTW](https://pyfftw.readthedocs.io/en/latest/), [numpy.fft](https://numpy.org/doc/stable/reference/routines.fft.html),
 [scipy.fft](https://docs.scipy.org/doc/scipy/reference/tutorial/fft.html) (python)
 and [fftw.jl](https://github.com/JuliaMath/FFTW.jl) (Julia).
 
-For the NA2020 crash course, you will need a working FFT library on your computer. In the following we will tell you how simply you can install it in a Gnu/Linux OS.
+For the NA2020 crash course, you will need a working FFT library on your computer. In the following, we will describe simple procedures to install such libraries in a Gnu/Linux OS.
 
 ## II. How to install FFT (C and FORTRAN)(ubuntu based distros)
 
