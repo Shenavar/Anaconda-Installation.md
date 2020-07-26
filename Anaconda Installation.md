@@ -4,9 +4,13 @@ This tutorial for installing **Anaconda** is written based on
 [Anaconda Documentation](https://docs.anaconda.com/anaconda/install/linux/)
 . You need to be connected to internet to install **Anaconda**. To install **Anaconda**
 
+0. In case of requesting for download from banned locations, you have to use a DNS, VPN, or Proxy out of the region.
+Edit the file `/etc/resolv.conf` and replace the `nameserver 127.0.0.1` (or etc..) lines with `nameserver 178.22.122.100` and `nameserver 185.51.200.2`. This will switch your default DNS servers to <https://shecan.ir> infrastructure and **it will tunnel whole traffic of your machine**.
+
+
 1. Go to 
 [this page](https://www.anaconda.com/products/individual#linux) 
-and download [Anaconda installer (python 3.7) for Linux](https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh). If you are from Iran, we don't know why, but you will probably encounter some problems in downloading this source file. Then, you would have two options:
+and download [Anaconda installer (python 3.8) for Linux](https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh). If download failed, follow any of the methods below:
 
 
    - Go to 
