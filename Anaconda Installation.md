@@ -146,3 +146,8 @@ as mentioned above.
 6. We strongly encourage you to read 
 [Updating from older versions](https://docs.anaconda.com/anaconda/install/update-version/) 
 to get familiar with other forms of updating Anaconda. You might need it some day.
+
+
+# III. How to install Anaconda on Windows and Mac
+
+If you are interested in installing Anaconda on Windows or Mac, please click [here](https://docs.anaconda.com/anaconda/install/)
